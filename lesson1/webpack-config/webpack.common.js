@@ -14,6 +14,7 @@ module.exports = {
       },
       {
         test: /\.css/,
+        // loader 执行的顺序是从左到右的
         loader: ['style-loader', 'css-loader', 'postcss-loader']
       },
       {
@@ -22,10 +23,10 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: path.join(srcPath, 'index.html'),
-      filename: 'index.html'
-    })
-  ]
+plugins: [
+  new HtmlWebpackPlugin({
+    template: path.join(srcPath, 'index.html'),
+    filename: 'index.html'
+  })
+]
 }

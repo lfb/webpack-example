@@ -21,7 +21,7 @@ module.exports = smart(webpackCommonConf, {
           loader: 'url-loader',
           options: {
             limit: 5 * 1024,
-            outputPath: './img1/'
+            outputPath: './images/'
             // 设置图片的 cdn 地址
             // publicPath: 'http://cdn.abc.com'
           }
