@@ -6,4 +6,6 @@ Webpack common configuration examples
 - [webpack 如何配置多入口](./lesson2)
 - [webpack 如何抽离压缩css文件](./lesson3)
 - [webpack 如何抽离公共代码和第三方代码](./lesson4)
+- [webpack 如何实现异步加载JS ](./lesson5)
 
+s
