@@ -2,4 +2,7 @@
 Webpack common configuration examples
 
 ## Example
-- [webpack basic configuration](./lesson1)
+- [webpack 项目基本配置](./lesson1)
+- [webpack 如何配置多入口](./lesson2)
+- [webpack 如何抽离压缩css文件](./lesson3)
+

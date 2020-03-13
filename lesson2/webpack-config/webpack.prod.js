@@ -32,7 +32,7 @@ module.exports = smart(webpackCommonConf, {
   plugins: [
     new CleanWebpackPlugin(),
     new webpack.DefinePlugin({
-      ENV: JSON.stringify('development')
+      ENV: JSON.stringify('production')
     })
   ]
 })
